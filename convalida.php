@@ -12,7 +12,7 @@
       <p>
          il testo:
         <?php
-         $testo = $_POST['testo']
+         $testo = $_GET['testo'];
          echo $testo;
         ?>
       </p>
@@ -26,15 +26,14 @@
 
       <p>
          <?php
-         $parola = $_POST['parola']
+         $parola = $_GET['parola'];
          echo $parola;
          ?>
       </p>
       
       <p>
          <?php
-         $censored = $_POST['parola'];
-         $newText = str_replace($parola, '***', $testo));
+         $newText = str_replace($parola, '***', $testo);
          echo $newText;
          ?>
       </p>

@@ -8,7 +8,7 @@
 </head>
 <body>
     <main>
-        <form action="convalida.php" method="POST">
+        <form action="convalida.php" method="GET">
             <label for="testo">scrivi del testo</label>
             <textarea name="testo" id="" cols="40" rows="10"></textarea>
             <input type="text" name="parola">
